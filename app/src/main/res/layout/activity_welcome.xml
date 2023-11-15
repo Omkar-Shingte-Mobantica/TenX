@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/assistant"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/jinni" />
+
+            <TextView
+                android:id="@+id/welcome_to_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal|top"
+                android:text="@string/welcome_to_"
+                android:textAppearance="@style/welcome_to_"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            <!--
+              Font family: Rubik
+              Line height: 26sp
+              (identical to box height)
+              -->
+
+
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <TextView
+                android:id="@+id/my_name_is_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="24dp"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="7sp"
+                android:text="@string/my_name_is_"
+                android:textAppearance="@style/my_name_is_"
+                android:translationY="-3.46sp"
+                app:layout_constraintEnd_toEndOf="@+id/welcome_to_"
+                app:layout_constraintStart_toStartOf="@+id/welcome_to_"
+                app:layout_constraintTop_toBottomOf="@+id/welcome_to_" />
+            <!--
+              Font family: Rubik
+              Line height: 33sp
+              translationY compensates for the line height adjustment of text
+              -->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+        <RelativeLayout
+            android:id="@+id/assistant"
+            android:layout_width="0dp"
+            android:layout_height="98dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/assistant"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dp"
+                app:srcCompat="@drawable/msg" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:id="@+id/imageButton2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#5D81E9"
+                    android:padding="8dp"
+                    app:tint="#FFFFFF"
+                    app:srcCompat="@drawable/symbols_mic" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <View
+                android:id="@+id/union2"
+                android:layout_width="0dp"
+                android:layout_height="8dp"
+                android:background="#758AC4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/union3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/union3"
+                android:layout_width="0dp"
+                android:layout_height="8dp"
+                android:background="#FCB52C"
+                app:layout_constraintEnd_toStartOf="@+id/union2"
+                app:layout_constraintStart_toEndOf="@+id/union4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/union4"
+                android:layout_width="0dp"
+                android:layout_height="8dp"
+                android:background="#A9D298"
+                app:layout_constraintEnd_toStartOf="@+id/union3"
+                app:layout_constraintStart_toEndOf="@+id/union"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/union"
+                android:layout_width="0dp"
+                android:layout_height="8dp"
+                android:background="#F06979"
+                app:layout_constraintEnd_toStartOf="@+id/union4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

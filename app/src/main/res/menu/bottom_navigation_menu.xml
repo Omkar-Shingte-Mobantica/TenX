@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/ic_distributors"
+        app:showAsAction="always"
+        android:title="DISTRIBUTORS"/>
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:icon="@drawable/ic_sku"
+        app:showAsAction="always"
+        android:title="SKU’s"/>
+    <item
+        android:id="@+id/page_3"
+        android:enabled="true"
+        android:icon="@drawable/ic_xenie"
+        app:showAsAction="always"
+        android:title="XENIE"/>
+    <item
+        android:id="@+id/page_4"
+        android:enabled="true"
+        android:icon="@drawable/ic_finance"
+        app:showAsAction="always"
+        android:title="FINANCE"/>
+    <item
+        android:id="@+id/page_5"
+        android:enabled="true"
+        android:icon="@drawable/ic_trade"
+        app:showAsAction="always"
+        android:title="TRADE"/>
+</menu>

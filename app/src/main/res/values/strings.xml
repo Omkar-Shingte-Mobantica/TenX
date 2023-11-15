@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TenX</string>
+    <string name="my_name_is_">My name is Xenie. I am your intelligent store assistant.\n\nTap to get started.</string>
+    <string name="welcome_to_">Welcome to 10X</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing.</string>
+    <string name="shop_owner_">Shop owner name</string>
+</resources>
