@@ -4,4 +4,9 @@
     <string name="welcome_to_">Welcome to 10X</string>
     <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing.</string>
     <string name="shop_owner_">Shop owner name</string>
+    <string name="didn_t_rece">Didn\'t receive the code? Resend now</string>
+    <string name="profile_pic">Profile Picture</string>
+    <string name="enter_verif">Email OTP verification</string>
+    <string name="otp_sent_to">OTP sent to saye*****.com</string>
+    <string name="don_t_recei">Don\'t receive the OTP ? Resend OTP</string>
 </resources>

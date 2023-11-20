@@ -1,8 +1,5 @@
 package com.os.tenxapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -15,13 +12,13 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity {
-    Dialog dialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
+public class BasicDetailActivity extends AppCompatActivity {
     private static final int CAMERA_REQUEST = 1888;
     private ImageView imageView;
     private static final int RESULT_LOAD_IMAGE = 1;
@@ -30,11 +27,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basic_detail);
-
         imageView = findViewById(R.id.imageView7);
         LayoutInflater layoutInflater = LayoutInflater.from(this);
-//        val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottomNavigation)
-//        bottomNavigationView.itemIconTintList = null
         findViewById(R.id.get_otp).setOnClickListener(view -> {
             View promptView = layoutInflater.inflate(R.layout.dialog_otp_verification, null);
             final AlertDialog alertD = new AlertDialog.Builder(this).create();
@@ -53,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
                     startActivityForResult(cameraIntent, CAMERA_REQUEST);
+                    alertD.dismiss();
                 }
             });
             promptView.findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
@@ -66,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
                     alertD.dismiss();
                 }
             });
-
             alertD.setView(promptView);
             alertD.show();
         });
