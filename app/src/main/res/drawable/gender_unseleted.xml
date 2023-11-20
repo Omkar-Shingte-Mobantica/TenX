@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
     android:width="90dp"
     android:height="48dp"
     android:viewportWidth="90"
-    android:viewportHeight="48"
-    >
+    android:viewportHeight="48">
     <group>
-        <clip-path
-            android:pathData="M12 0H78C84.6274 0 90 5.37258 90 12V36C90 42.6274 84.6274 48 78 48H12C5.37258 48 0 42.6274 0 36V12C0 5.37258 5.37258 0 12 0Z"
-            />
+        <clip-path android:pathData="M12 0H78C84.6274 0 90 5.37258 90 12V36C90 42.6274 84.6274 48 78 48H12C5.37258 48 0 42.6274 0 36V12C0 5.37258 5.37258 0 12 0Z" />
         <group
             android:translateX="0.5"
             android:translateY="-0.5"
@@ -18,27 +14,21 @@
             android:pivotY="24"
             android:scaleX="2.828"
             android:scaleY="2.828"
-            android:rotation="45"
-            >
-            <path
-                android:pathData="M0 0V48H90V0"
-                >
+            android:rotation="45">
+            <path android:pathData="M0 0V48H90V0">
                 <aapt:attr name="android:fillColor">
                     <gradient
                         android:type="linear"
                         android:startX="22.5"
                         android:startY="24"
                         android:endX="67.5"
-                        android:endY="24"
-                        >
+                        android:endY="24">
                         <item
                             android:color="#EEEEEE"
-                            android:offset="0"
-                            />
+                            android:offset="0" />
                         <item
                             android:color="#FFFFFF"
-                            android:offset="0.456"
-                            />
+                            android:offset="0.456" />
                     </gradient>
                 </aapt:attr>
             </path>
@@ -46,7 +36,6 @@
         <path
             android:pathData="M12 0H78C84.6274 0 90 5.37258 90 12V36C90 42.6274 84.6274 48 78 48H12C5.37258 48 0 42.6274 0 36V12C0 5.37258 5.37258 0 12 0Z"
             android:strokeWidth="2"
-            android:strokeColor="#F4F4F4"
-            />
+            android:strokeColor="#F4F4F4" />
     </group>
 </vector>

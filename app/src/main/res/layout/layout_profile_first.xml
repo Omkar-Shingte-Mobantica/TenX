@@ -5,122 +5,148 @@
     android:layout_height="wrap_content"
     android:background="@color/profile_bg">
 
-        <TextView
-            android:id="@+id/shop_owner_"
-            android:layout_width="135dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="top"
-            android:text="@string/shop_owner_"
-            android:textAppearance="@style/shop_owner_"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/shop_owner_"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:text="@string/street_address"
+        android:textAppearance="@style/shop_owner_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/shop_owner_2"
-            android:layout_width="135dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="top"
-            android:text="Shop Name"
-            android:textAppearance="@style/shop_owner_"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+    <TextView
+        android:id="@+id/shop_owner_2"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:text="@string/pincode"
+        android:textAppearance="@style/shop_owner_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
-        <TextView
-            android:id="@+id/shop_owner_3"
-            android:layout_width="135dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="top"
-            android:text="GST Number"
-            android:textAppearance="@style/shop_owner_"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+    <TextView
+        android:id="@+id/shop_owner_3"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:text="@string/city"
+        android:textAppearance="@style/shop_owner_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
-        <TextView
-            android:id="@+id/shop_owner_4"
-            android:layout_width="135dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="top"
-            android:text="Address"
-            android:textAppearance="@style/shop_owner_"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+    <TextView
+        android:id="@+id/shop_owner_4"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:text="@string/state"
+        android:textAppearance="@style/shop_owner_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
 
-        <TextView
-            android:id="@+id/shop_owner_6"
-            android:layout_width="135dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="top"
-            android:text="Shop PAN Number"
-            android:textAppearance="@style/shop_owner_"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+    <TextView
+        android:id="@+id/shop_owner_6"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:text="@string/aadhaar_number"
+        android:textAppearance="@style/shop_owner_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName"
-            style="@style/CustomEdittext"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Owner name"
-            android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/shop_owner_"
-            app:layout_constraintTop_toBottomOf="@+id/shop_owner_" />
+    <TextView
+        android:id="@+id/shop_owner_12"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:text="@string/pan_number"
+        android:textAppearance="@style/shop_owner_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName3"
-            style="@style/CustomEdittext"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Shop name"
-            android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/shop_owner_"
-            app:layout_constraintTop_toBottomOf="@+id/shop_owner_2" />
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        style="@style/CustomEdittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_address"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/shop_owner_"
+        app:layout_constraintTop_toBottomOf="@+id/shop_owner_" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName6"
-            style="@style/CustomEdittext"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="GST number"
-            android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/shop_owner_"
-            app:layout_constraintTop_toBottomOf="@+id/shop_owner_3" />
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        style="@style/CustomEdittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_pincode"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/shop_owner_"
+        app:layout_constraintTop_toBottomOf="@+id/shop_owner_2" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName7"
-            style="@style/CustomEdittext"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Shop address"
-            android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/shop_owner_"
-            app:layout_constraintTop_toBottomOf="@+id/shop_owner_4" />
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        style="@style/CustomEdittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Bengaluru"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/shop_owner_"
+        app:layout_constraintTop_toBottomOf="@+id/shop_owner_3" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName8"
-            style="@style/CustomEdittext"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:ems="10"
-            android:hint="Shop PAN Number"
-            android:inputType="textPersonName"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/shop_owner_"
-            app:layout_constraintTop_toBottomOf="@+id/shop_owner_6" />
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        style="@style/CustomEdittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Karnataka"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/shop_owner_"
+        app:layout_constraintTop_toBottomOf="@+id/shop_owner_4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        style="@style/CustomEdittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_16_digit_aadhaar_number"
+        android:inputType="textPersonName"
+        android:maxLength="16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/shop_owner_"
+        app:layout_constraintTop_toBottomOf="@+id/shop_owner_6" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        style="@style/CustomEdittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="@string/enter_8_digit_pan_number"
+        android:inputType="textPersonName"
+        android:maxLength="8"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/shop_owner_"
+        app:layout_constraintTop_toBottomOf="@+id/shop_owner_12" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

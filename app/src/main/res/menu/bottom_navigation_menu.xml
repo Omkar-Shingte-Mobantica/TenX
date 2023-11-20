@@ -5,30 +5,30 @@
         android:id="@+id/page_1"
         android:enabled="true"
         android:icon="@drawable/ic_distributors"
-        app:showAsAction="always"
-        android:title="DISTRIBUTORS"/>
+        android:title="@string/distributors"
+        app:showAsAction="always" />
     <item
         android:id="@+id/page_2"
         android:enabled="true"
         android:icon="@drawable/ic_sku"
-        app:showAsAction="always"
-        android:title="SKU’s"/>
+        android:title="@string/sku_s"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/page_3"
         android:enabled="true"
         android:icon="@drawable/ic_xenie"
-        app:showAsAction="always"
-        android:title="XENIE"/>
+        android:title="@string/xenie"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/page_4"
         android:enabled="true"
         android:icon="@drawable/ic_finance"
-        app:showAsAction="always"
-        android:title="FINANCE"/>
+        android:title="@string/finance"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/page_5"
         android:enabled="true"
         android:icon="@drawable/ic_trade"
-        app:showAsAction="always"
-        android:title="TRADE"/>
+        android:title="@string/trade"
+        app:showAsAction="always" />
 </menu>

@@ -11,8 +11,6 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-        <!-- Auto layout, variables, and unit scale are not yet supported -->
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,14 +43,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
-            <!--
-              Font family: Rubik
-              Line height: 26sp
-              (identical to box height)
-              -->
 
-
-            <!-- Auto layout, variables, and unit scale are not yet supported -->
             <TextView
                 android:id="@+id/my_name_is_"
                 android:layout_width="wrap_content"

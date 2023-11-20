@@ -13,16 +13,19 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
     <style name="my_name_is_">
         <item name="android:textSize">22sp</item>
         <item name="android:letterSpacing">0.02</item>
         <item name="android:textColor">#0A0130</item>
     </style>
+
     <style name="welcome_to_">
         <item name="android:textSize">22sp</item>
         <item name="android:letterSpacing">0.02</item>
         <item name="android:textColor">#758AC4</item>
     </style>
+
     <style name="lorem_ipsum">
         <item name="android:textSize">16sp</item>
         <item name="android:letterSpacing">0.03</item>
@@ -39,10 +42,12 @@
         <item name="android:textSize">10sp</item>
         <item name="android:textColor">@color/app_color</item>
     </style>
+
     <style name="shop_owner_">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#404040</item>
     </style>
+
     <style name="CustomEdittext">
         <item name="android:paddingStart">20dp</item>
         <item name="android:paddingTop">8dp</item>
@@ -51,6 +56,7 @@
         <item name="android:layout_marginTop">12dp</item>
         <item name="android:background">@drawable/frame_3</item>
     </style>
+
     <style name="CustomEmailOtpEdittext">
         <item name="android:paddingStart">20dp</item>
         <item name="android:paddingTop">8dp</item>
@@ -58,39 +64,10 @@
         <item name="android:paddingBottom">8dp</item>
         <item name="android:background">@drawable/email_otp_bg</item>
     </style>
-    <style name="didn_t_rece">
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">#555555</item>
-    </style>
-    <style name="profile_pic">
-        <item name="android:textSize">16sp</item>
-        <item name="android:letterSpacing">0.03</item>
+
+    <style name="upload_docu">
+        <item name="android:textSize">20sp</item>
         <item name="android:textColor">#404040</item>
-    </style>
-    <style name="enter_verif">
-        <item name="android:textSize">16sp</item>
-        <item name="android:letterSpacing">0.02</item>
-        <item name="android:textColor">#323139</item>
-    </style>
-    <style name="otp_sent_to">
-        <item name="android:textSize">16sp</item>
-        <item name="android:letterSpacing">0.02</item>
-        <item name="android:textColor">#323139</item>
-    </style>
-    <style name="don_t_recei">
-        <item name="android:textSize">14sp</item>
-        <item name="android:letterSpacing">0.02</item>
-        <item name="android:textColor">#323139</item>
-    </style>
-    <style name="upload_prof">
-        <item name="android:textSize">18sp</item>
-        <item name="android:letterSpacing">0.02</item>
-        <item name="android:textColor">#525255</item>
-    </style>
-    <style name="max_size_12">
-        <item name="android:textSize">14sp</item>
-        <item name="android:letterSpacing">0.02</item>
-        <item name="android:textColor">#747378</item>
     </style>
 
 </resources>

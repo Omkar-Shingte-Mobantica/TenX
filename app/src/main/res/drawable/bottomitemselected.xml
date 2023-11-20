@@ -9,6 +9,6 @@
             <solid android:color="@color/white" />
         </shape>
     </item>
-    <item android:drawable="@drawable/bottomnavigationbackground"/>
+    <item android:drawable="@drawable/bottomnavigationbackground" />
 
 </selector>

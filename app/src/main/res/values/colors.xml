@@ -11,4 +11,6 @@
     <color name="unselected_text_color">#555555</color>
     <color name="on_select">#D6F0B4</color>
     <color name="profile_bg">#F7F7F7</color>
+    <color name="profile_progress_full">#1C0E59</color>
+    <color name="profile_progress_half">#ECE8FF</color>
 </resources>
